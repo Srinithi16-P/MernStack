@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "ecommerce api test",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "nodemon": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "srinithi",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4",
+    "razorpay": "^2.9.6",
+    "slugify": "^1.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
